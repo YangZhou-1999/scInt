@@ -41,14 +41,14 @@ query.data <- run.Mapping(reference.data, query.data)
 ```
 
 ## Tutorials
-For more details and full workflow of scInt inculing downstream analysis, please check [here]().
+For more details and full workflow of scInt, please check [here]().
 
 * For data Integration and reference-based mapping examples using simulated data sets, please see [here]().
 
 * For data integration and subsequent downstream analysis on real data set, please see [here]().
 
 # Reproducibility and data sets in the manuscript
-The source codes and jupyter notebook scripts to reproduce the results in the manuscript are available on the [Github page](https://github.com/Jinsl-lab/scInt_reproducibility). The full information of used data sets can be find in the manuscript. The data sets are available for free in public data bases, and can also be downloaded in the [Zenodo repository](https://zenodo.org/record/7198744#.ZAvbO3ZByw6).
+The source codes and jupyter notebook scripts to reproduce the results in the manuscript are also available on the [Github page](https://github.com/Jinsl-lab/scInt_reproducibility). The full information of used data sets can be find in the manuscript. The data sets are available for free in public data bases, and can also be downloaded in the [Zenodo repository](https://zenodo.org/record/7198744#.ZAvbO3ZByw6).
 
 # Dependencies
 scInt has been successfully installed and used on Windows, Linux and Mac OS (R version >= 4.0.2). The dependencies including: Biobase, dplyr, irlba, Matrix, matrixStats, methods, rfunctions, Rcpp, RcppEigen, RcppArmadillo, RSpectra, Seurat (>= 4.1.0), uwot.
